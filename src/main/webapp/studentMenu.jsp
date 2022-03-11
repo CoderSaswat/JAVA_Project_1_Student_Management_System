@@ -14,6 +14,15 @@
 	justify-content: center;
 	flex-direction: column;
 	}
+	.c2{
+	background-color: #78fe17;
+	color: red;
+	}
+	
+	.c3{
+    background-color: #b4fffe;
+    color: #0a07d4;
+	}
 </style>
 </head>
 <body>
@@ -41,18 +50,18 @@ try {
 	<div class="c1">
 		<h2>Your full details</h2>
 		<table align="center" cellpadding="5" cellspacing="5" border="1">
-			<tr>
-				<th>roll no</th>
-				<th>name</th>
-				<th>mark</th>
-				<th>email</th>
-				<th>dob</th>
-				<th>gender</th>
-				<th>coures</th>
-				<th>status</th>
+			<tr class="c2">
+				<th>ROLL NO</th>
+				<th>NAME</th>
+				<th>MARK</th>
+				<th>EMAIL</th>
+				<th>DOB</th>
+				<th>GENDER</th>
+				<th>COURSE</th>
+				<th>STATUS</th>
 			</tr>
 			<br>
-			<tr>
+			<tr class="c3">
 				<td><%=rs.getInt(1) %></td>
 				<td><%=rs.getString(2) %></td>
 				<td><%=rs.getInt(3) %></td>

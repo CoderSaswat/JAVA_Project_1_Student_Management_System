@@ -2,7 +2,6 @@
     pageEncoding="ISO-8859-1"%>
 <%@page import="java.sql.*,java.util.*,java.text.*"%>
 <%@page import="java.io.*, java.util.Date, java.util.Enumeration" %> 
-
 <style>
 	.c1{
 	display : flex;
@@ -11,7 +10,6 @@
 	flex-direction: column;
 	}
 </style>
-
 <%
 	String email = request.getParameter("email");
 	String password = request.getParameter("password");

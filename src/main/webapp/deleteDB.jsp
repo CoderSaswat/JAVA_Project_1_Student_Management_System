@@ -11,7 +11,6 @@
 	flex-direction: column;
 	}
 </style>
-
 <%
 String email = request.getParameter("email");
 Connection con;
@@ -45,7 +44,7 @@ PreparedStatement ps;
 	} catch (SQLException e) {
 	e.printStackTrace();
 	out.print("exception");
-} catch (ClassNotFoundException e) {
+} 	catch (ClassNotFoundException e) {
 	e.printStackTrace();
 	out.print("exception");
 }

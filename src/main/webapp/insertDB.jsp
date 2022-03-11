@@ -2,7 +2,6 @@
     pageEncoding="ISO-8859-1"%>
 <%@page import="java.sql.*,java.util.*,java.text.*"%>
 <%@page import="java.io.*, java.util.Date, java.util.Enumeration" %>
-
 <style>
 	.c1{
 	display : flex;
@@ -11,7 +10,6 @@
 	flex-direction: column;
 	}
 </style>
-
 <%
 	String name = request.getParameter("name");
 	String email = request.getParameter("email");
@@ -42,7 +40,7 @@
 		ps.setString(10, "student");
 		
 		int result = ps.executeUpdate();
-		if(result ==1){
+		if(result == 1){
 			/* out.print("success"); */
 %>	
 		<div class="c1">
@@ -62,6 +60,4 @@
 		e.printStackTrace();
 		out.print("exception");
 	} 
-
-
 %>
