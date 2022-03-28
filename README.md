@@ -1,4 +1,3 @@
-# JAVA_Project_1_Student_Management_System
 # Technology Used
 J2EE, JSP, SERVLET, JDBC, MYSQL
 # Project Description
